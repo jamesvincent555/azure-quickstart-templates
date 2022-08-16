@@ -20,7 +20,7 @@ steps:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'scMyConnection'
     subscriptionId: '62793228-20aa-4674-9425-60f5af468858'
-    action: 'Create Or Update Resource Group'
+    action: 'DeleteRG'
     resourceGroupName: 'resCICD01'
     location: 'australiasoutheast'
     templateLocation: 'Linked artifact'
